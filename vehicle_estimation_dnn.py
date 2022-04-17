@@ -53,7 +53,8 @@ DOWNLOAD_BASE = \
 # Path to frozen detection graph .This is the actual model that is used for th eobject detection.
 PATH_TO_CKPT = os.path.join('data', 'mscoco_label_ma.pbtxt')
 
-NUM_CLASSES = 90
+#NUM_CLASSES = 90
+NUM_CLASSES = 100
 
 # Download Model
 # uncommment if you have not download the model yet
